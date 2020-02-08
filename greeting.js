@@ -9,22 +9,31 @@ function saveName(text) {
   localStorage.setItem(USER_LS, text);
 }
 
-function handleSubmit(event) {
+function handleUserSubmit(event) {
   event.preventDefault();
-  const currentValue = input.value;
-  paintGreeting(currentValue);
-  saveName(currentValue);
+  const currentName = input.value;
+  paintGreeting(currentName);
+  saveName(currentName);
 }
 
 function askForName() {
   form.classList.add(SHOWING_CN);
-  form.addEventListener("submit", handleSubmit);
+  form.addEventListener("submit", handleUserSubmit);
+}
+
+function modifyName() {
+  greeting.classList.remove(SHOWING_CN);
+  askForName();
 }
 
 function paintGreeting(text) {
+  const modifyBtn = document.createElement("button");
+  modifyBtn.innerText = "✏";
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
   greeting.innerText = `Hello ${text}`;
+  greeting.appendChild(modifyBtn);
+  modifyBtn.addEventListener("click", modifyName);
 }
 
 function loadName() {
