@@ -9,34 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <div class="js-clock clock">
-        <h1>00:00</h1>
+      <div class="js-clock">
+        <div class="js-clockTitle">00:00</div>
       </div>
       <form action="" class="js-form form">
         <input type="text" placeholder="What is your name?" />
       </form>
-      <div class="js-greetings greetings"></div>
-      <div class="toDoContainer">
-        <div class="taskContainer">
-          <div class="title">📌TASK📌</div>
-          <form action="" class="js-toDoForm toDoForm">
-            <input type="text" placeholder="✏ Add task" />
-          </form>
-        </div>
-        <div class="toDoList">
-          <div class="pendingContainer">
-            <div class="title">Pending</div class="title">
-            <ul class="pendingList"></ul>
-          </div>
-          <div class="finishedContainer">
-            <div class="title">Finished</div class="title">
-            <ul class="finishedList"></ul>
-          </div>
-        </div>
-      </div>
-      <span class="js-weather"></span>
+      <h2 class="js-greetings greetings"></h2>
+      <form action="" class="js-toDoForm toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList toDoList"></ul>
+      <span class="js-weather weather"></span>
     </div>
-    
+
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
