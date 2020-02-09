@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/2424c9ae4f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Momentom</title>
     <link rel="stylesheet" href="index.css" />
   </head>
@@ -17,9 +21,12 @@
         <input type="text" placeholder="What is your name?" />
       </form>
       <h2 class="js-greetings greetings"></h2>
-      <form action="" class="js-toDoForm toDoForm">
-        <input type="text" placeholder="Write a to do" />
-      </form>
+      <div class="doContainer">
+        <form action="" class="js-toDoForm toDoForm">
+          <input type="text" placeholder="Write a to do" />
+        </form>
+        <div class="icon"><i class="fas fa-trash"></i></div>
+      </div>
       <ul class="js-toDoList toDoList"></ul>
       <span class="js-weather weather"></span>
     </div>

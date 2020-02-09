@@ -52,6 +52,27 @@ body {
   text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
 }
 
+.container .doContainer {
+  display: flex;
+}
+
+.doContainer .icon {
+  width: 40px;
+  height: 40px;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 13px;
+  margin-left: 10px;
+}
+
+.icon i {
+  padding: 5px;
+  cursor: pointer;
+}
+
 .container .form {
   margin: 30px 0px;
 }
@@ -69,6 +90,10 @@ body {
   background: none;
   outline: none;
   transition: transform 0.3s ease-in;
+}
+
+.toDoForm input {
+  margin-left: 43px;
 }
 
 .form input:focus,
