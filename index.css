@@ -37,10 +37,17 @@ body {
   animation: containerAnim 0.5s ease-in;
 }
 
+.container .date {
+  font-family: "Arvo", serif;
+  font-size: 180%;
+  text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
+}
+
 .container .js-clock {
   font-family: "Arvo", serif;
-  font-size: 150px;
+  font-size: 850%;
   font-weight: 700;
+  padding: 0px 15px;
   margin-bottom: 30px;
   text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
 }
@@ -53,7 +60,8 @@ body {
 .toDoForm input {
   width: 300px;
   font-family: "Racing Sans One", cursive;
-  font-size: 30px;
+  font-size: 200%;
+  color: #dbdfe9;
   text-align: center;
   line-height: 50px;
   border: none;
@@ -66,7 +74,7 @@ body {
 .form input:focus,
 .toDoForm input:focus {
   color: #dbdfe9;
-  transform: translateY(-7px);
+  transform: translateY(-10%);
 }
 
 .form input::placeholder,
@@ -76,7 +84,7 @@ body {
 
 .container .greetings {
   font-family: "Racing Sans One", cursive;
-  font-size: 50px;
+  font-size: 350%;
   text-shadow: 2px 2px 2px rgb(189, 183, 183);
 }
 
@@ -85,7 +93,7 @@ body {
   border-radius: 10px;
   background: none;
   color: white;
-  font-size: 15px;
+  font-size: 40%;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -157,9 +165,9 @@ li button {
 
 .weather {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 3%;
+  right: 3%;
   font-family: "Comfortaa", cursive;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 130%;
 }
