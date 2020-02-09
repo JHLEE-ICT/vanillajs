@@ -45,7 +45,7 @@ body {
 
 .container .js-clock {
   font-family: "Arvo", serif;
-  font-size: 850%;
+  font-size: 800%;
   font-weight: 700;
   padding: 0px 30px;
   margin-bottom: 30px;
@@ -84,7 +84,7 @@ body {
 
 .container .greetings {
   font-family: "Racing Sans One", cursive;
-  font-size: 350%;
+  font-size: 300%;
   text-shadow: 2px 2px 2px rgb(189, 183, 183);
 }
 
@@ -169,5 +169,5 @@ li button {
   right: 3%;
   font-family: "Comfortaa", cursive;
   font-weight: 600;
-  font-size: 130%;
+  font-size: 120%;
 }
