@@ -1,12 +1,12 @@
 # vanillajs
-### Momentum App Clone Coding
-#### use HTML, CSS, JS
+### Momentum App Clone Coding 💻
+#### ✏use HTML, CSS, JS
 * 기능
   * ToDo List
   * Weather with Geolocation
   * Clock
   
-### 보완하면 좋을 것들
+### ✅보완하면 좋을 것들
 
 - [ ] 시간에 따라 배경사진 변경
 
