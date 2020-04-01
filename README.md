@@ -1,11 +1,15 @@
 # vanillajs
+
 ### Momentum App Clone Coding 💻
+
 #### ✏use HTML, CSS, JS
-* 기능
-  * ToDo List
-  * Weather with Geolocation
-  * Clock
-  
+
+- 기능
+
+  - ToDo List
+  - Weather with Geolocation
+  - Clock
+
 <hr/>
 
 ### ✅보완하면 좋을 것들
@@ -18,7 +22,7 @@
 
 => 배경의 색과 글자 색이 겹쳐 화면의 글자가 안보이는 경우가 있음
 
-- [ ] 드래그 금지 적용
+- [ x ] 드래그 금지 적용
 
 - [ ] 배경사진 용량 조절
 
