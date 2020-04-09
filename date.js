@@ -16,6 +16,7 @@ function getDate() {
 
 function init() {
   getDate();
+  setInterval(getDate, 1000);
 }
 
 init();
