@@ -2,13 +2,15 @@
 
 ### Momentum App Clone Coding 💻
 
-#### ✏use HTML, CSS, JS
+#### ✏ use HTML, CSS, JS
 
-- 기능
+#### 😎 미리보기 및 기능
 
-  - ToDo List
-  - Weather with Geolocation
-  - Clock
+![vanilla](https://user-images.githubusercontent.com/55091156/79003961-b6c29780-7b8e-11ea-9081-16fe6aad9f25.PNG)
+
+### 링크 바로가기 🐾 
+
+💡 [Momentom](https://jhlee-ict.github.io/vanillajs/) 💡
 
 <hr/>
 
