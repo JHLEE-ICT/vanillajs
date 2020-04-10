@@ -49,12 +49,21 @@ body {
 }
 
 .container .js-clock {
+  width: 700px;
   font-family: "Arvo", serif;
   font-size: 870%;
   font-weight: 700;
   padding: 0px 30px;
   margin-bottom: 30px;
   text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.466);
+}
+
+.js-clock .js-clockTitle {
+  display: flex;
+}
+
+.js-clockTitle span {
+  margin: 0 13px;
 }
 
 .container .doContainer {
