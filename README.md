@@ -4,6 +4,9 @@
 
 #### ✏use HTML, CSS, JS
 
+#### >>>미리보기<<<
+![vanilla](https://user-images.githubusercontent.com/55091156/79003961-b6c29780-7b8e-11ea-9081-16fe6aad9f25.PNG)
+
 - 기능
 
   - ToDo List
